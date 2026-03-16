@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accueil</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background-image:url("Pht.jpg");
+    background-size:cover;
+}
+
+/* LOGO */
+.logo{
+    display:block;
+    margin:auto;
+    width:200px;
+    border-radius:20px;
+}
+
+/* TITRE */
+h1{
+    background-color:skyblue;
+    text-align:center;
+    padding:30px;
+}
+
+/* TEXTE */
+p{
+    text-align:center;
+    font-size:18px;
+}
+
+/* MENU */
+nav{
+    text-align:center;
+    padding:20px;
+}
+
+nav a{
+    text-decoration:none;
+    background-color:white;
+    padding:10px 15px;
+    border-radius:8px;
+    font-size:15px;
+    margin:5px;
+    display:inline-block;
+}
+
+/* GALERIE */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    padding:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* TABLETTE */
+@media (max-width:768px){
+
+.gallery{
+    grid-template-columns:repeat(2,1fr);
+}
+
+nav a{
+    display:block;
+    width:150px;
+    margin:10px auto;
+}
+
+}
+
+/* TELEPHONE */
+@media (max-width:480px){
+
+.gallery{
+    grid-template-columns:1fr;
+}
+
+h1{
+    font-size:22px;
+}
+
+p{
+    font-size:14px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<img src="logo2.png" alt="logo" class="logo">
+
+<h1>🇲🇬 TRANSMADA 🇲🇬</h1>
+
+<p><strong>"Voyagez en toute sécurité à Madagascar"</strong></p>
+
+<nav>
+<a href="A propos.html">A propos</a>
+<a href="Nos service.html">Service</a>
+<a href="reservation.html">Reservation</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<hr>
+
+<div class="gallery">
+
+<img src="Photo12.png" alt="">
+<img src="Photo1.jpg" alt="">
+<img src="Photo2.jpg" alt="">
+<img src="Photo3.jpg" alt="">
+<img src="Photo4.jpg" alt="">
+<img src="Photo5.jpg" alt="">
+<img src="Photo6.jpg" alt="">
+<img src="Photo7.jpg" alt="">
+<img src="Photo8.jpg" alt="">
+<img src="Photo9.jpg" alt="">
+<img src="Photo10.jpg" alt="">
+
+</div>
+
+</body>
+</html>
