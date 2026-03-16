@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reservation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+    background-image: url("Rano.jpg");
+    background-size: cover;
+    font-family: Arial;
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    color:skyblue;
+}
+
+nav{
+    text-align:center;
+    margin:20px;
+}
+
+nav a{
+    text-decoration:none;
+    background-color:white;
+    padding:10px 15px;
+    border-radius:8px;
+    font-size:15px;
+    margin:5px;
+    display:inline-block;
+}
+
+form{
+    color:yellowgreen;
+    width:400px;
+    margin:auto;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    border-radius:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    border:none;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:skyblue;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
+
+ul{
+    padding:0;
+}
+
+li{
+    list-style:none;
+}
+
+/* RESPONSIVE TABLETTE */
+@media (max-width:768px){
+
+form{
+    width:90%;
+}
+
+nav a{
+    display:block;
+    margin:10px auto;
+    width:150px;
+}
+
+}
+
+/* RESPONSIVE TELEPHONE */
+@media (max-width:480px){
+
+h1{
+    font-size:22px;
+}
+
+form{
+    width:95%;
+}
+
+nav{
+    margin:10px;
+}
+
+nav a{
+    font-size:14px;
+    padding:8px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+<a href="Index.html">Acceuil</a>
+<a href="A propos.html">A propos</a>
+<a href="Nos service.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<h1>RESERVATION</h1>
+<hr>
+
+<form>
+
+<label>Votre nom</label>
+<input type="text">
+
+<label>Nombre de places</label>
+<input type="number">
+
+<label>Numero de telephone</label>
+<input type="tel">
+
+<label>Date de depart</label>
+<input type="date">
+
+<label>Heure de depart</label>
+<input type="time">
+
+<button type="submit">Envoyer</button>
+
+</form>
+
+</header>
+
+</body>
+</html>

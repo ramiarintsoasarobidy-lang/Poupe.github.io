@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background-image:url("Foul.jpg");
+    background-size:cover;
+}
+
+/* LOGO */
+.logo{
+    display:block;
+    margin:auto;
+    width:200px;
+}
+
+/* TITRE */
+h1{
+    color:blue;
+    text-align:center;
+}
+
+/* MENU */
+nav{
+    text-align:center;
+    margin:20px;
+}
+
+nav a{
+    text-decoration:none;
+    background-color:white;
+    padding:10px 15px;
+    border-radius:8px;
+    font-size:14px;
+    margin:5px;
+    display:inline-block;
+}
+
+/* TEXTE */
+p{
+    text-align:center;
+}
+
+ul{
+    width:300px;
+    margin:auto;
+    background:rgba(255,255,255,0.8);
+    padding:20px;
+    border-radius:10px;
+}
+
+/* IMAGE */
+img.map{
+    display:block;
+    width:90%;
+    max-width:600px;
+    margin:20px auto;
+    border-radius:10px;
+}
+
+/* TABLETTE */
+@media (max-width:768px){
+
+nav a{
+    display:block;
+    width:150px;
+    margin:10px auto;
+}
+
+ul{
+    width:90%;
+}
+
+}
+
+/* TELEPHONE */
+@media (max-width:480px){
+
+.logo{
+    width:150px;
+}
+
+h1{
+    font-size:22px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="logo2.png" alt="logo" class="logo">
+
+<h1>CONTACT</h1>
+<hr>
+
+<nav>
+<a href="Index.html">Accueil</a>
+<a href="A propos.html">A propos</a>
+<a href="Nos service.html">Services</a>
+<a href="reservation.html">Reservation</a>
+</nav>
+
+<p>Vous pouvez nous contacter à :</p>
+
+<ul>
+<li>📞 Téléphone : 0346111002 / 0334638575</li>
+<li>📘 Facebook : TransVoyage</li>
+<li>📧 Email : TransVoyage@gmail.com</li>
+<li>📍 Adresse : Gare routière MAKI (Andohatapenaka)</li>
+</ul>
+
+<img src="gps.jpg" alt="localisation" class="map">
+
+</header>
+
+</body>
+</html>

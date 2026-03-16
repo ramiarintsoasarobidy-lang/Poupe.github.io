@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>A propos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background-image:url("Sary.jpg");
+    background-size:cover;
+}
+
+/* LOGO */
+.logo{
+    display:block;
+    margin:auto;
+    width:200px;
+}
+
+/* TEXTE */
+p{
+    text-align:center;
+}
+
+/* MENU */
+nav{
+    text-align:center;
+    margin:20px;
+}
+
+nav a{
+    text-decoration:none;
+    background:white;
+    padding:10px 15px;
+    border-radius:8px;
+    font-size:15px;
+    margin:5px;
+    display:inline-block;
+}
+
+/* TITRE */
+h1,h2{
+    color:orange;
+    text-align:center;
+}
+
+/* BOITE */
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.box{
+    font-size:15px;
+    width:300px;
+    background:rgba(255,255,255,0.8);
+    margin:10px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* LISTE */
+ul{
+    padding-left:20px;
+}
+
+/* FOOTER */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+    margin-top:20px;
+}
+
+/* TABLETTE */
+@media (max-width:768px){
+
+.box{
+    width:90%;
+}
+
+nav a{
+    display:block;
+    width:150px;
+    margin:10px auto;
+}
+
+}
+
+/* TELEPHONE */
+@media (max-width:480px){
+
+.logo{
+    width:150px;
+}
+
+h1{
+    font-size:22px;
+}
+
+h2{
+    font-size:18px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<img src="Logo2.png" alt="logo" class="logo">
+
+<p><strong>"Voyagez en toute sécurité à Madagascar"</strong></p>
+
+<nav>
+<a href="Index.html">Accueil</a>
+<a href="Nos service.html">Services</a>
+<a href="reservation.html">Reservation</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="box">
+<h1>A PROPOS DE NOUS</h1>
+
+<p>
+Notre entreprise est spécialisée dans le transport de voyage avec pour mission d'offrir un voyage
+<strong>fiable, sécurisé et confortable.</strong><br><br>
+
+Nous sommes à votre disposition pour toutes les régions que vous voulez visiter.
+Nos voitures sont confortables avec des sièges luxueux et propres.
+Tous les voyageurs peuvent se connecter au WIFI.
+Nos chauffeurs sont expérimentés et responsables.
+</p>
+</div>
+
+<div class="box">
+<h2>GARANTIE & SECURITE</h2>
+<ul>
+<li>Chauffeurs expérimentés et professionnels</li>
+<li>Une chaise par personne</li>
+<li>Chaise confortable</li>
+<li>WIFI et écran à bord</li>
+<li>Départ à l'heure, arrivée à l'heure</li>
+<li>Assistance 24h/24</li>
+</ul>
+</div>
+
+<div class="box">
+<h2>COMMENT CA MARCHE</h2>
+<ul>
+<li>🏝 Réservez votre voyage</li>
+<li>🗺 Indiquez la destination</li>
+<li>🏕 Arrivez sans stress</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+© 2026 Transvoyage - Transport de voyage à Madagascar
+</footer>
+
+</body>
+</html>
